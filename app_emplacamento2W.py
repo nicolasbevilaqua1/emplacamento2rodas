@@ -539,7 +539,7 @@ mostrar_ic = st.sidebar.checkbox("Mostrar intervalo de confiança (80%)", value=
 
 variaveis = [c for c in NUMERIC_COLS if c in df.columns and c != TARGET]
 
-st.title(" Denso - Motorcycle Registration Forecast")
+st.title("Motorcycle Registration Forecast")
 st.caption(
     f"Série de {df[DATE_COL].min():%b/%Y} a {df[DATE_COL].max():%b/%Y} "
     f"· {len(df)} observações mensais"
